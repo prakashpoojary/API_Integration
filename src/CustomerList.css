@@ -1,0 +1,49 @@
+/* CustomerList.css */
+
+.customer-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .add-customer-button, .toggle-data-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .customer-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .customer-li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .delete-button, .update-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .update-button {
+    background-color: #2196F3;
+  }
+  
